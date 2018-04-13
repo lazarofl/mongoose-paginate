@@ -3,17 +3,17 @@
 
 > Pagination plugin for [Mongoose](http://mongoosejs.com)
 
-[![NPM version](https://img.shields.io/npm/v/mongoose-paginate.svg)](https://npmjs.org/package/mongoose-paginate)
-[![Build status](https://img.shields.io/travis/edwardhotchkiss/mongoose-paginate.svg)](https://travis-ci.org/edwardhotchkiss/mongoose-paginate)
+[![NPM version](https://img.shields.io/npm/v/mongoose-paginate-lazarus.svg)](https://npmjs.org/package/mongoose-paginate-lazarus)
+[![Build Status](https://travis-ci.org/lazarofl/mongoose-paginate-lazarus.svg?branch=master)](https://travis-ci.org/lazarofl/mongoose-paginate-lazarus)
 
 **Note:** This plugin will only work with Node.js >= 4.2 and Mongoose >= 4.2
 =======
-[![NPM](https://nodei.co/npm/mongoose-paginate.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/mongoose-paginate/)
+[![NPM](https://nodei.co/npm/mongoose-paginate-lazarus.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/mongoose-paginate-lazarus/)
 
 ## Installation
 
 ```sh
-npm install mongoose-paginate
+npm install mongoose-paginate-lazarus
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ Add plugin to a schema and then use model `paginate` method:
 
 ```js
 var mongoose = require('mongoose');
-var mongoosePaginate = require('mongoose-paginate');
+var mongoosePaginate = require('mongoose-paginate-lazarus');
 
 var schema = new mongoose.Schema({ /* schema definition */ });
 schema.plugin(mongoosePaginate);
@@ -112,7 +112,7 @@ Book.paginate(query, options).then(function(result) {
 config.js:
 
 ```js
-var mongoosePaginate = require('mongoose-paginate');
+var mongoosePaginate = require('mongoose-paginate-lazarus');
 
 mongoosePaginate.paginate.options = { 
   lean:  true,
