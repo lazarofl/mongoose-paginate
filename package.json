@@ -1,12 +1,16 @@
 {
-  "name": "mongoose-paginate",
+  "name": "mongoose-paginate-lazarus",
   "description": "Pagination plugin for Mongoose",
-  "version": "5.0.2",
+  "version": "5.0.5",
   "author": {
-    "name": "Edward Hotchkiss",
-    "email": "edward@edwardhotchkiss.com"
+    "name": "Lazaro Fernandes Lima Suleiman",
+    "email": "lazaro.fl@gmail.com"
   },
   "contributors": [
+    {
+      "name": "Edward Hotchkiss",
+      "email": "edward@edwardhotchkiss.com"
+    },
     {
       "name": "Edward Hotchkiss",
       "email": "edward@edwardhotchkiss.com"
@@ -22,7 +26,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/edwardhotchkiss/mongoose-paginate.git"
+    "url": "https://github.com/lazarofl/mongoose-paginate.git"
   },
   "license": "MIT",
   "keywords": [
