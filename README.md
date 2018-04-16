@@ -1,5 +1,5 @@
 
-# mongoose-paginate
+# mongoose-paginate-lazarus
 
 > Pagination plugin for [Mongoose](http://mongoosejs.com)
 

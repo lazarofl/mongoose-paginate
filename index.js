@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * @package mongoose-paginate
+ * @package mongoose-paginate-lazarus
  * @param {Object} [query={}]
  * @param {Object} [options={}]
  * @param {Object|String} [options.select]
