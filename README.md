@@ -44,6 +44,7 @@ var Model = mongoose.model('Model',  schema); // Model.paginate()
   - `[offset=0]` {Number} - Use `offset` or `page` to set skip position
   - `[page=1]` {Number}
   - `[limit=Number.MAX_SAFE_INTEGER]` {Number}
+  - `[timeout=9999]` {Number} - Timeout in miliseconds
 * `[callback(err, result)]` - If specified the callback is called once pagination results are retrieved or when an error has occurred
 
 **Return value**

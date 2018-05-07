@@ -1,7 +1,7 @@
 {
   "name": "mongoose-paginate-lazarus",
   "description": "Pagination plugin for Mongoose",
-  "version": "5.0.6",
+  "version": "5.0.7",
   "author": {
     "name": "Lazaro Fernandes Lima Suleiman",
     "email": "lazaro.fl@gmail.com"

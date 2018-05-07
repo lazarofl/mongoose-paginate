@@ -43,7 +43,9 @@ function paginate(query, options, callback) {
       .sort(sort)
       .skip(skip)
       .limit(limit)
-      .lean(lean);
+      .lean(lean)
+      .maxTime(options.timeout || 9999)
+
     if (populate) {
       [].concat(populate).forEach((item) => {
         docsQuery.populate(item);
