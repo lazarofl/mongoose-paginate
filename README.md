@@ -5,6 +5,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/mongoose-paginate-lazarus.svg)](https://npmjs.org/package/mongoose-paginate-lazarus)
 [![Build Status](https://travis-ci.org/lazarofl/mongoose-paginate-lazarus.svg?branch=master)](https://travis-ci.org/lazarofl/mongoose-paginate-lazarus)
+[![NPM Downloads](https://img.shields.io/npm/dy/mongoose-paginate-lazarus.svg)](https://www.npmjs.com/package/mongoose-paginate-lazarus)
 
 **Note:** This plugin will only work with Node.js >= 4.2 and Mongoose >= 4.2
 =======
